@@ -1,0 +1,33 @@
+body {
+    background-color:lightblue;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 80px 500px 100px;
+    grid-gap:15px;
+    grid-template-areas: 
+    "hd"
+    "sd" 
+    "main"
+    "ft";
+ }
+
+ .box {
+     border:2px solid gray;
+ }
+ .header{
+     grid-area: hd;
+ }
+
+ .sidebar{
+     grid-area: sd;
+ }
+ .content{
+     grid-area: main;
+ }
+
+ .footer {
+     grid-area: ft;
+ }
