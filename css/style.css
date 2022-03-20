@@ -31,3 +31,15 @@ body {
  .footer {
      grid-area: ft;
  }
+ @media(min-width:901px){
+    .container{
+        display:grid;
+        grid-template-columns: 150px 1fr;
+        grid-template-rows: 100px 500px 100px;
+        grid-gap:15px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd hd hd"
+        "sd main main main main main main main main main" 
+        "ft ft ft ft ft ft ft ft ft ft"; 
+    }
+ }
