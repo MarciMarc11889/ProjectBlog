@@ -1,0 +1,24 @@
+ .box {
+     border:2px solid gray;
+     padding: 10px;
+     font: 14px arial;
+ }
+ .header{
+     display:flex;
+     grid-area: hd;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .sidebar{
+     grid-area: sd;
+ }
+ .content{
+    padding: 20px;
+    grid-area: main;
+    text-align: justify;
+ }
+
+ .footer {
+     grid-area: ft;
+ }
