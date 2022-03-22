@@ -4,4 +4,9 @@ body {
 
 h1{
     font: bold italic 40px Fantasy;
+    color:#3b3b3b;
+}
+
+a{
+    font: italic 12px Fantasy; 
 }
