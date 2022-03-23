@@ -1,20 +1,21 @@
 .container{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 80px 1fr 100px;
+    grid-auto-rows: minmax(100px, auto);
     grid-gap:15px;
     grid-template-areas: 
     "hd"
     "sd" 
     "main"
     "ft";
+    
  }
 
  @media(min-width:901px){
     .container{
         display:grid;
         grid-template-columns: 150px 1fr;
-        grid-template-rows: 100px 1fr 100px;
+        grid-auto-rows: minmax(100px,auto);
         grid-gap:15px;
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd hd hd"
