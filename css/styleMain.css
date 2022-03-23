@@ -7,6 +7,17 @@ h1{
     color:#3b3b3b;
 }
 
+h2{
+    font: bold 18px times; 
+    color:#3b3b3b;
+}
+
+h3{
+    font: 14px georgia;
+    color: #0c5383
+}
+
 a{
-    font: italic 14px calibri light; 
+    font: italic 18px calibri light; 
+    text-decoration: none;
 }
