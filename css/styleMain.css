@@ -4,20 +4,38 @@ body {
 
 h1{
     font: bold italic 40px calibri light;
-    color:#3b3b3b;
+    color: #233b46
 }
 
 h2{
-    font: bold 18px times; 
-    color:#3b3b3b;
+    font: bold 18px calibri; 
+    color:#233b46;
 }
 
 h3{
     font: bold 14px calibri light;
-    color: #3b3b3b
+    color: #233b46;
 }
 
-a{
-    font: italic 18px calibri light; 
+a:link, a:visited {
+    margin: 5px;
+    padding: 5px;
+    background-color: #d48a00;
+    color: #233b46;
+    font: 18px calibri; 
     text-decoration: none;
+    border: 1px solid #233b46;
+    border-radius: 20px;
+    transition: border-radius 0.5s;
+}
+
+a:hover {
+    color:#5a95b1;
+    border-radius: 0px;
+
+}
+
+p {
+    font: bold 14px calibri light;
+    color: #233b46;
 }
