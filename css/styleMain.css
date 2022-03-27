@@ -13,8 +13,20 @@ h2{
 }
 
 h3{
-    font: bold 14px calibri light;
+    font: italic 14px calibri light;
     color: #233b46;
+    line-height: 0.1;
+}
+
+h4{
+    font: 11px arial;
+    color:black;
+    line-height: 0.1;
+    
+}
+
+h5{
+    font: italic 11px arial;
 }
 
 a:link, a:visited {
@@ -38,4 +50,8 @@ a:hover {
 p {
     font: bold 14px calibri light;
     color: #233b46;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
