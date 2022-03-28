@@ -69,14 +69,18 @@ q {
     border-radius: 10px;
     padding-left: 5px;
     background-color: #758f9c;
+
 }
 .avatar{
+    display:flex;
     height: 50px;
     width: 50px;
     border-radius:25px;
     background-color: #5f6163;
     color: #ffffff;
     font: 8px bold arial;
-    text-align: center;
-    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 10px;
 }
