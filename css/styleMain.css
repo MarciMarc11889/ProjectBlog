@@ -47,12 +47,10 @@ a:hover {
 
 p {
     font: 16px calibri light;
-    color: #233b46;
 }
 img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 3px;
     box-shadow: 3px 3px 10px#233b46;
-
 }
